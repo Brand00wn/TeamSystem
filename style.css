@@ -2102,7 +2102,7 @@ h6.head-title {
 }
 .post .entry-sidebar .course-details div {
 	background: #efefef;
-	height: 29px;
+	/* height: 29px; */
 	line-height: 29px;
 	padding: 0 10px;
 	color: #909090;
@@ -2156,7 +2156,7 @@ h6.head-title {
 .sidebar .search .submit-btn:hover {
 	background: #383c4b;
 }
-/*Início da implementação por LeoDias*/
+/*In\EDcio da implementa\E7\E3o por LeoDias*/
 .tab-content > .tab-pane {
     display: none;
 }
@@ -2171,7 +2171,7 @@ h6.head-title {
     -o-transition: opacity .15s linear;
     transition: opacity .15s linear;
 }
-/*Fim da implementação por Leo Dias*/
+/*Fim da implementa\E7\E3o por Leo Dias*/
 
 .sidebar .sidebar-widget {
 	padding: 20px;
@@ -2390,12 +2390,12 @@ h6.head-title {
 	margin-top: 10px;
 }
 
-/*Início de implementação por Leo Dias*/
+/*In\EDcio de implementa\E7\E3o por Leo Dias*/
 .destaqueList li {
     border-bottom: 0.5px dotted #a9abb0;
     padding: 15px 0px 15px 0px;
 }
-/*Fim de implementação por Leo Dias*/
+/*Fim de implementa\E7\E3o por Leo Dias*/
 
 .comments-list {
 	background: #fa9964;
