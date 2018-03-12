@@ -341,7 +341,7 @@ header .main-navigation {
         margin-top: 25px;
 		float: right;
 		width: 85%;
-		
+
 }
 header .main-navigation > ul > li {
 	float: left;
@@ -2746,7 +2746,6 @@ h6.head-title {
 	background: #f5f5f5;
 	padding: 10px 0;
 	width: 700px;
-	height: 252px;
 }
 
 .login-page .logo-container{
