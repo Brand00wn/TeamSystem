@@ -2091,7 +2091,7 @@ html[xmlns] .slides {display: block;}
 	height: 100%;
 	opacity: 0;
 }
-/* SELECTED FEEDBACK ITEM */ 
+/* SELECTED FEEDBACK ITEM */
 .dropdown .selected {
     color: #383c4b;
 }

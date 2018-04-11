@@ -74,7 +74,7 @@
                             <li class="parent-item haschild">
                                 <a href="EditalEAD2018digitalizado.pdf" class="ln-tr">Edital</a>                            </li>
                             <li class="parent-item haschild">
-                                <a href="#" class="ln-tr" data-toggle="modal" data-target="#video-how-do">Como Funciona</a></li>
+                                <a href="#" id="btn-como-funciona" class="ln-tr" data-toggle="modal" data-target="#video-how-do">Como Funciona</a></li>
 							<li class="parent-item haschild">
                                 <a href="tutorial-aluno-ead.pdf" class="ln-tr">Manual do Aluno</a>								</li>
 							<li class="parent-item haschild">
@@ -401,7 +401,7 @@
                                     <button type="button" class="close pull-right" style="margin-right:10px; width: 50px;" data-dismiss="modal">&times;</button>
                                   </div><br><br>
 
-                                       <iframe src="https://player.vimeo.com/video/259756048" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/210661528">Como Funciona</a> from <a href="https://vimeo.com/neadugb">Nead UGB</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                                       <iframe src="" width="640" height="360" frameborder="0" id="video-como-funciona" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/210661528">Como Funciona</a> from <a href="https://vimeo.com/neadugb">Nead UGB</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
                                 </div><!-- end login form -->
@@ -427,5 +427,10 @@
         <script src="assets/js/jquery.viewportchecker.min.js"></script>
         <script src="assets/js/jquery.waypoints.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+        <script>
+          $("#btn-como-funciona").click(function(){
+            $("#video-como-funciona").attr("src", "https://player.vimeo.com/video/259756048");
+          });
+        </script>
     </body>
 </html>
